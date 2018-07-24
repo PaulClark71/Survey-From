@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>  
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
+</head>
+<body>
+  
+  
+  <div id="form-container">
+    <div id="row1">
+      <p>Sunshine Resort Hotel 123 Anywhere Road, Anywhere Tel. 01111 111 111</p>
+    </div>
+        <h1 id="title">Guest Feedback Form</h1>
+    <div class="sub-text">
+        <p id="description">please complete this short form to help us improve our facilities</p>
+    </div>
+  
+      <form id="survey-form">
+        
+        <div id="col-1">
+         
+            <div>
+              <label id="name-label" class="label" for="name">*Name</label>
+            </div>
+            <div>
+              <label id="email-label" class="label" for="email">*Email</label>
+            </div>
+             <div>
+              <label id="number-label" class="label" for="room">*Room No.</label>
+            </div>
+      
+          <div class="left">
+            <p>Please select your length of stay</p>
+          </div>
+          
+          <div class="left">
+            <p>Please 'check' any of the boxes to indicate which of our facilities you used while you were a guest with us </p>
+          </div>
+          
+          <div class="left">
+            <p id="radio-text">How likely is it that you would visit us again?</p>
+          </div>
+          
+         <div>
+            <p id="text-area-text">Please provide any other comments you may have </p>
+          </div>
+          
+        </div>
+        
+        
+        
+        <div id="col-2">
+          <div>
+            <input type="text" class="input" id="name" placeholder="your name here" required>
+          </div>
+          <div>
+            <input type="email" class="input" id="email" placeholder="your email here" required>
+          </div>
+          <div>
+            <input type="number" class="input" id="number" min="1" max="10" placeholder="your room number here" required>
+          </div>
+          <div>
+            <select id="dropdown" class="input">
+            <option disabled selected value>Select an option</option>
+            <option value="3-night">3 night package</option>
+            <option value="5-night">5 night package</option>
+            <option value="7-night">7 night package</option>
+            <option value="14-night">14 night package</option>
+          </select>
+          </div>
+          
+          <div class="checkboxes">
+            <input type="checkbox" class="check" name="sauna" value="1"> Sauna<br>
+            <input type="checkbox" class="check" name="pool" value="2"> Swimming Pool<br>
+            <input type="checkbox" class="check" name="gym" value="3" > Gym<br>
+            <input type="checkbox" class="check" name="beauty-rooms" value="4" > Beauty Rooms<br>
+            <input type="checkbox" class="check" name="day-restaurant" value="5" > Day Restaurant<br>
+            <input type="checkbox" class="check" name="evening-restaurant" value="6" > Evening Restaurant<br>
+            <input type="checkbox" class="check" name="gilles-bar" value="7" > Gilles Bar<br>
+            <input type="checkbox" class="check" name="cocktail-bar" value="8" > Cocktail Bar<br>
+            <input type="checkbox" class="check" name="tennis-courts" value="9" > Tennis Courts<br>
+            <input type="checkbox" class="check" name="snooker-room" value="10" > Snooker Room<br>
+          </div>
+          
+          <div class="radios">
+            <input type="radio" value="1" id="rd1" name="1">
+            <label for="rd1"> Very</label><br>
+        
+            <input type="radio" value="1" id="rd2" name="1">
+            <label for="rd2"> Maybe</label><br>
+      
+            <input type="radio" value="1" id="rd3" name="1">
+            <label for="rd3"> Never</label>
+          </div>
+           <div class="text-area">
+            <textarea id="txtArea" rows="5" cols="40" placeholder="your comments go here"></textarea>
+          </div>
+        </div>
+          <div id="row-end">
+            <button type="submit" id="submit"><span>Submit</span></button>
+          </div>
+      </form> 
+          <div id="foot">
+         
+          
+            <input type="checkbox" id="consent" value="1" required>I consent to having Sunshine Resort Hotels to collect and store the above data and use in accordance with their <a href ="#">privacy policy</a> 
+          </div>
+        
+        
+        
+      
+  </div>
+  
+  
+  
+  
+  
+  <p class="credits">coded by Paul Clark July 2018</p>
+  
+</body>
+</html>
